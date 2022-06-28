@@ -1,0 +1,6 @@
+SQLAlchemy~=1.4.39
+databases~=0.6.0
+fastapi~=0.78.0
+alembic~=1.8.0
+celery~=5.2.7
+flower~=1.0.0

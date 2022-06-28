@@ -1,0 +1,13 @@
+# Test your FastAPI endpoints
+
+GET http://127.0.0.2:8000/
+Accept: application/json
+
+###
+# curl -X 'POST'
+#  'http://127.0.0.2:8000/transact_add?keyt_out=1&keyt_in=1&amount=1'
+#  -H 'accept: application/json'
+#  -d ''
+POST http://127.0.0.2:8000/transact_add?keyt_out=1&keyt_in=1&amount=1
+Accept: application/json
+

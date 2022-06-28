@@ -1,0 +1,19 @@
+# curl -X 'POST'
+#  'http://127.0.0.2:8000/user_add?email=andasdadsa&name=sadsafaf&hashed_passwords=asafcsafczdvasdasv'
+#  -H 'accept: application/json'
+#  -d ''
+POST http://127.0.0.2:8000/user_add?email=andasdadsa&name=sadsafaf&hashed_password=asafcsafczdvasdasv
+accept: application/json
+Content-Type: application/x-www-form-urlencoded
+
+
+###
+# curl -X 'DELETE'
+#  'http://127.0.0.2:8000/user_dell?uid=1'
+#  -H 'accept: application/json'
+DELETE http://127.0.0.2:8000/user_dell?uid=1
+accept: application/json
+
+###
+
+
